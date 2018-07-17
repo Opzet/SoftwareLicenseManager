@@ -106,8 +106,10 @@ https://github.com/10quality/wpmvc-addon-license-key
 
 ### It is confusing on how to enable software licensing, it is hidden in the free architecture, cannot work out what to buy...
 
- *  $39 https://www.10quality.com/product/woocommerce-license-keys/
-*  $129 https://woocommerce.com/products/woocommerce-api-manager/  <- What is this??
+* $199 - 399  https://woocommerce.com/products/woocommerce-subscriptions/  I think this is closest to the above?
+
+*  $39 https://www.10quality.com/product/woocommerce-license-keys/
+*  $129 https://woocommerce.com/products/woocommerce-api-manager/  <- What is this??  Looks promising
 *  $129 https://woocommerce.com/products/software-add-on/?utm_source=product&utm_medium=upsell&utm_campaign=wcaddons
 WooCommerce License Keys adds a new product type to your WordPress and WooCommerce setup, and lets you create and handle license keys that can be used to validate your licensed products.  
 
