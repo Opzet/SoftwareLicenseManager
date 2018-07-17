@@ -1,21 +1,41 @@
-Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key, this is how I did it.  Port of License Keys API client used to activate, validate and deactivate your license keys from https://github.com/10quality/license-keys-php-client/blob/v1.0/src/Client.php
+Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key, this is how I did it.  
 
-You can utilise the themes/pluging license architecture, labels are set as 'domain' rather than 'desktop/install' etc but thats just semantics.
-
-There is alot on wordpress themes and plugins licensing to allow code restrictions easily, this is an example of how to do it for a desktop application.
+Use Woocommerce to sell license and enable your WordPress setup to act as a validator API (service) with endpoints that will let you activate, validate and deactivate license keys via HTTP requests; this is a C# solutions to integrate the API within your desktop products.
 
 
-## Infrastructure
+##It is confusing on how to enable software licensing, it is hidden in the free architecture, cannot work out what to buy...
 
-### Wordpress
+ *  $39 https://www.10quality.com/product/woocommerce-license-keys/
+*  $129 https://woocommerce.com/products/woocommerce-api-manager/
+*  $129 https://woocommerce.com/products/software-add-on/?utm_source=product&utm_medium=upsell&utm_campaign=wcaddons
+WooCommerce License Keys adds a new product type to your WordPress and WooCommerce setup, and lets you create and handle license keys that can be used to validate your licensed products.  
+
+https://www.tipsandtricks-hq.com/ecommerce/integrate-wp-estore-with-software-license-manager-plugin-3731
+
+## Reverse Engineer of licensing in Wordpress/WooCommerce
+
+### Infrastructure
+
+ * WooCommerce License Keys
+  * Enable and handle "License Keys" with WooCommerce.
+
+
+ * Woocommerce SML (Software licence manager) Key generator
+	 * Auto generate licence keys for WooCommerce orders using the Software licence manager plugin
+
+ * REST API
+
+#### Wordpress
 
   * Wordpress Plugins
     * woocommerce
     
-#### License Auto Generation (License Key)
+##### License Auto Generation (License Key)
     * WooCommerce License Keys - Enable and handle "License Keys" with WooCommerce. Version 1.0.11 | By 10 Quality
 
-#### SML (Software licence manager) 
+##### SML (Software licence manager) 
+https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
+
 * Woocommerce SML (Software licence manager) Key generator - Auto generate licence keys for WooCommerce orders using the Software licence manager plugin Version 1.0 | By Aaron Bowie (We are AG) 
 
 This is an __updated version of Woocommerce Software License Manager By Omid Shamlu__ to work with the latest WooCommerce (3.0+)
@@ -26,22 +46,10 @@ Features
     Send generated license keys to your customers within your existing email notifications
 
 
-### WooCommerce
 
- * WooCommerce License Keys
-  * Enable and handle "License Keys" with WooCommerce.
+## REST API / WebClient to check json query to woocommerce
 
-
- * Woocommerce SML (Software licence manager) Key generator
-	 * Auto generate licence keys for WooCommerce orders using the Software licence manager plugin
-
-
-## Software license Manager Plugin
-
-https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
-
-
-## WebClient to check json query to woocommerce
+Port of License Keys API client used to activate, validate and deactivate license keys from https://github.com/10quality/license-keys-php-client/blob/v1.0/src/Client.php
 
 <pre>
   LicenseResponse License = new LicenseResponse();
@@ -103,6 +111,4 @@ https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
 https://github.com/10quality/wpmvc-addon-license-key
 
 
-### Reference Links 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-[Git Hub Pages documentation](https://help.github.com/categories/github-pages-basics/)
+
