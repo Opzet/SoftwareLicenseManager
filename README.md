@@ -1,9 +1,8 @@
-Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key, this is how I did it.
+Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key, this is how I did it.  Port of License Keys API client used to activate, validate and deactivate your license keys from https://github.com/10quality/license-keys-php-client/blob/v1.0/src/Client.php
 
 You can utilise the themes/pluging license architecture, labels are set as 'domain' rather than 'desktop/install' etc but thats just semantics.
 
 There is alot on wordpress themes and plugins licensing to allow code restrictions easily, this is an example of how to do it for a desktop application.
-
 
 
 ## Infrastructure
@@ -12,7 +11,20 @@ There is alot on wordpress themes and plugins licensing to allow code restrictio
 
   * Wordpress Plugins
     * woocommerce
-    * Software License Manager Plugin
+    
+#### License Auto Generation (License Key)
+    * WooCommerce License Keys - Enable and handle "License Keys" with WooCommerce. Version 1.0.11 | By 10 Quality
+
+#### SML (Software licence manager) 
+* Woocommerce SML (Software licence manager) Key generator - Auto generate licence keys for WooCommerce orders using the Software licence manager plugin Version 1.0 | By Aaron Bowie (We are AG) 
+
+This is an __updated version of Woocommerce Software License Manager By Omid Shamlu__ to work with the latest WooCommerce (3.0+)
+Features
+
+    Automatically creates license keys for each sale with WC
+    Licensing is optional and can be activated/deactivated individually
+    Send generated license keys to your customers within your existing email notifications
+
 
 ### WooCommerce
 
