@@ -2,16 +2,6 @@ Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key
 
 Use Woocommerce to sell license and enable your WordPress setup to act as a validator API (service) with endpoints that will let you activate, validate and deactivate license keys via HTTP requests; this is a C# solutions to integrate the API within your desktop products.
 
-
-##It is confusing on how to enable software licensing, it is hidden in the free architecture, cannot work out what to buy...
-
- *  $39 https://www.10quality.com/product/woocommerce-license-keys/
-*  $129 https://woocommerce.com/products/woocommerce-api-manager/
-*  $129 https://woocommerce.com/products/software-add-on/?utm_source=product&utm_medium=upsell&utm_campaign=wcaddons
-WooCommerce License Keys adds a new product type to your WordPress and WooCommerce setup, and lets you create and handle license keys that can be used to validate your licensed products.  
-
-https://www.tipsandtricks-hq.com/ecommerce/integrate-wp-estore-with-software-license-manager-plugin-3731
-
 ## Reverse Engineer of licensing in Wordpress/WooCommerce
 
 ### Infrastructure
@@ -110,5 +100,13 @@ Port of License Keys API client used to activate, validate and deactivate licens
 ### MVC
 https://github.com/10quality/wpmvc-addon-license-key
 
+## It is confusing on how to enable software licensing, it is hidden in the free architecture, cannot work out what to buy...
+
+ *  $39 https://www.10quality.com/product/woocommerce-license-keys/
+*  $129 https://woocommerce.com/products/woocommerce-api-manager/
+*  $129 https://woocommerce.com/products/software-add-on/?utm_source=product&utm_medium=upsell&utm_campaign=wcaddons
+WooCommerce License Keys adds a new product type to your WordPress and WooCommerce setup, and lets you create and handle license keys that can be used to validate your licensed products.  
+
+https://www.tipsandtricks-hq.com/ecommerce/integrate-wp-estore-with-software-license-manager-plugin-3731
 
 
