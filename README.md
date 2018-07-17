@@ -4,9 +4,9 @@ I want to sell software and activate it via a key, this is how I did it.
 
 ### Wordpress
 
-  Wordpress Plugins
-    - woocommerce
-    - Software License Manager Plugin
+  * Wordpress Plugins
+    * woocommerce
+    * Software License Manager Plugin
 
 
 
