@@ -10,12 +10,12 @@ Use Woocommerce to sell license and enable your WordPress setup to act as a vali
 
  2. Enable license key fields in product
  
- 3. Enable license key auto generation and notification on purchase
+ 3. Software License Management (SLM) Enable license key auto generation and notification on purchase
  
- 4. Software License Management (SLM) 
+ 4. REST API for desktop application
  
- 5. REST API for desktop application
- 
+<hr>
+
 #### 1. Store : Wordpress and WooCommerce
 
 Install Wordpress Plugin: 'woocommerce' enables eCommerce Store
@@ -25,14 +25,7 @@ Install Wordpress Plugin: 'woocommerce' enables eCommerce Store
 Install Wordpress Plugin: 'WooCommerce License Keys'  Version 1.0.11 By 10 Quality
 Enables "License Keys" with WooCommerce field in products.
 
-
-##### 3. Key Generation: License Auto Generation
-
-Install Wordpress Plugin: Woocommerce SML (Software licence manager) Key generator
-
-Auto generate licence keys for WooCommerce orders using the Software licence manager plugin
-
-##### 4. Manage: Software licence manager dashboard
+#### 3. Manage: Software licence manager dashboard
 
 https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
 
@@ -43,7 +36,9 @@ Features
 
 Automatically creates license keys for each sale with WC Licensing is optional and can be activated/deactivated individually send generated license keys to your customers within your existing email notifications
 
-## 5. REST API / WebClient to check json query to woocommerce
+<hr>
+
+### Application code to query store: REST API / WebClient to check json query to woocommerce
 
 Port of License Keys API client used to activate, validate and deactivate license keys from https://github.com/10quality/license-keys-php-client/blob/v1.0/src/Client.php
 
@@ -101,12 +96,13 @@ Port of License Keys API client used to activate, validate and deactivate licens
 
         }
 	    </pre>
-## Other Implementations
+	    
+#### Other Implementations
 
 ### MVC
 https://github.com/10quality/wpmvc-addon-license-key
 
-## It is confusing on how to enable software licensing, it is hidden in the free architecture, cannot work out what to buy...
+### It is confusing on how to enable software licensing, it is hidden in the free architecture, cannot work out what to buy...
 
  *  $39 https://www.10quality.com/product/woocommerce-license-keys/
 *  $129 https://woocommerce.com/products/woocommerce-api-manager/
