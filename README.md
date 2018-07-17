@@ -20,25 +20,23 @@ Use Woocommerce to sell license and enable your WordPress setup to act as a vali
 
 Install Wordpress Plugin: 'woocommerce' enables eCommerce Store
     
-#### 2. Enable license key fields in product
+#### 2. Field: Enable license key fields in product
 
 Install Wordpress Plugin: 'WooCommerce License Keys'  Version 1.0.11 By 10 Quality
+Enables "License Keys" with WooCommerce field in products.
 
-Enables "License Keys" with WooCommerce field in products
 
-##### 3. License Auto Generation (License Key)
-  
+##### 3. Key Generation: License Auto Generation
+
 Install Wordpress Plugin: Woocommerce SML (Software licence manager) Key generator
 
 Auto generate licence keys for WooCommerce orders using the Software licence manager plugin
- 
-##### 4. SML (Software licence manager) 
+
+##### 4. Manage: Software licence manager dashboard
 
 https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
 
 Install Wordpress Plugin: Software licence manager plugin Version 1.0 | By Aaron Bowie (We are AG)
-
-Woocommerce SML (Software licence manager) Key generator Auto generates licence keys for WooCommerce orders.
 
 This is an __updated version of Woocommerce Software License Manager By Omid Shamlu__ to work with the latest WooCommerce (3.0+)
 Features
