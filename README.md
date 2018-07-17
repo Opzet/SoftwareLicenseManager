@@ -24,6 +24,7 @@ Use Woocommerce to sell license and enable your WordPress setup to act as a vali
     * WooCommerce License Keys - Enable and handle "License Keys" with WooCommerce. Version 1.0.11 | By 10 Quality
 
 ##### SML (Software licence manager) 
+
 https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
 
 * Woocommerce SML (Software licence manager) Key generator - Auto generate licence keys for WooCommerce orders using the Software licence manager plugin Version 1.0 | By Aaron Bowie (We are AG) 
