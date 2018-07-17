@@ -42,6 +42,44 @@ https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
                 string result = System.Text.Encoding.UTF8.GetString(response);
                 License = FromJson<LicenseResponse>(result);
             }
+	    
+	    if (License != null)
+            {
+                lblResponse.Text = $"Result: {License.result} | Message: {License.message} | Key: {License.key}";
+
+                txtFirstName.Text = License.first_name;
+                txtLastName.Text = License.last_name;
+                txtEmail.Text = License.email;
+                txtCompany.Text = License.company_name;
+                txtTransId.Text = License.txn_id;
+                txtAllowedInstalls.Text = License.max_allowed_domains;
+
+                txtProductref.Text = License.product_ref;
+
+                listActivations.Items.Clear();
+
+                foreach (RegDomains domain in License.registered_domains)
+                {
+                    listActivations.Items.Add(new ListViewItem(new string[] {
+                        domain.id,
+                        domain.registered_domain,
+                        domain.item_reference,
+                    }));
+
+                    txtItem.Text = domain.item_reference;
+
+                }
+
+                listActivations.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+                listActivations.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
+                listActivations.Refresh();
+            }
+            else
+            {
+                lblResponse.Text = "No Response?";
+            }
+
+        }
 	    </pre>
 ## Other Implementations
 
