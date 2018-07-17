@@ -27,8 +27,9 @@ https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
 
 ## WebClient to check json query to woocommerce
 
-  LicenseResponse License = new LicenseResponse();
 <pre>
+  LicenseResponse License = new LicenseResponse();
+
             using (WebClient client = new WebClient())
             {
                 var response = client.UploadValues(txtLicenseServer.Text, new NameValueCollection()
