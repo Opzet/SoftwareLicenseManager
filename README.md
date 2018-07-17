@@ -1,6 +1,10 @@
 Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key, this is how I did it.
 
- There is alot on wordpress themes and plugins licensing to allow code restrictions easily, this is an example of how to do it for a desktop application.
+You can utilise the themes/pluging license architecture, labels are set as 'domain' rather than 'desktop/install' etc but thats just semantics.
+
+There is alot on wordpress themes and plugins licensing to allow code restrictions easily, this is an example of how to do it for a desktop application.
+
+
 
 ## Infrastructure
 
