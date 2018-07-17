@@ -1,6 +1,6 @@
-I want to sell DotNet C# winform software and activate it via a key, this is how I did it.
+Want to sell desktop software (e.g. DotNet C# winform) and activate it via a key, this is how I did it.
 
- There is alot on wordpress themese and plugins licensing to allow code restrictions easily, this is an example of how to do it for a desktop application.
+ There is alot on wordpress themes and plugins licensing to allow code restrictions easily, this is an example of how to do it for a desktop application.
 
 ## Infrastructure
 
@@ -25,8 +25,6 @@ I want to sell DotNet C# winform software and activate it via a key, this is how
 https://www.tipsandtricks-hq.com/software-license-manager-plugin-for-wordpress
 
 
-
-
-### Notes on how to edit this page
+### Reference Links 
 [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 [Git Hub Pages documentation](https://help.github.com/categories/github-pages-basics/)
